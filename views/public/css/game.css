@@ -1,0 +1,15 @@
+.checked {
+    width: 100pt;
+    height: 100pt;
+    border: 1px black solid;
+    /* background: lightgreen; */
+    margin: 2px;
+    /* background-image: linear-gradient(to right top, #134898, #007cc9, #00aabf, #00d17e, #a8eb12); */
+    background-image: linear-gradient(to right top, #337eee, #00a1eb, #00b8d3, #75c9be, #b8d6c0);
+    /* padding: 1px; */
+}
+
+#pageOpen {
+    display:none;
+    
+}
