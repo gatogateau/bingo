@@ -1,12 +1,12 @@
 var path= require("path");
 var router = require("express").Router();
-var HTMLRoutes= require("./HTMLRoutes");
+var htmlRoutes= require("./htmlRoutes");
 
 
 
 
 // use routes
-router.use("/HTMLRoutes", HTMLRoutes);
+router.use("/htmlRoutes", htmlRoutes);
 
 
 module.exports = router;

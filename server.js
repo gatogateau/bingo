@@ -23,7 +23,7 @@ app.use(routes);
 // set static page
 
 // Designate our public folder as a static directory
-app.use(express.static("views/public"));
+app.use(express.static("views"));
 
 
 
@@ -31,7 +31,7 @@ app.use(express.static("views/public"));
 
 
 // require("./app/routing/apiRoutes")(app);
-require("./routes/HTMLRoutes");
+// require("./routes/htmlRoutes");
 
 // require("./routes/apiRoutes");
 

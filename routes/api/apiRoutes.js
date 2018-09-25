@@ -1,5 +1,5 @@
 var router = require("express").Router();
-var apiController = require("../../controller/gameController");
+var gameController = require("../../controller/gameController");
 
 
 // api/apiRoutes/........
